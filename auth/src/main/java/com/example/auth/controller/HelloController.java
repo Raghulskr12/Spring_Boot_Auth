@@ -12,9 +12,4 @@ public class HelloController {
     {
         return "Hello World";
     }
-    @GetMapping("/sessionID")
-    public String sessionID(HttpServletRequest request)
-        {
-        return "sessionID" + request.getSession().getId();
-        }
 }
